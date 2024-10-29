@@ -3,7 +3,6 @@ package atividadesifelse.lista01;
 import java.util.Scanner;
 
 public class Atividade04 {
-
     //Escreva um algoritmo em Java, que leia 3 palavras (String), que definem as características de um tipo de animal possível segundo o diagrama abaixo, que deve ser lido da esquerda para a direita.
     public static void main(String[] args) {
 
@@ -58,7 +57,6 @@ public class Atividade04 {
                 }
             }
         }
-
         scanner.close();
     }
 }

@@ -44,6 +44,8 @@ public class Atividade03 {
             System.out.println("O doador " + nome + " não está apto para doar sangue");
         }
 
+        
+
         scanner.close();
     }
 }

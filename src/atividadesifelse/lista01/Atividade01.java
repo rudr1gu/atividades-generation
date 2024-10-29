@@ -28,5 +28,7 @@ public class Atividade01 {
             System.out.println("A soma de A e B é menor que C");
         }
         scanner.close();
+
+    
     }  
 }
