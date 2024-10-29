@@ -17,7 +17,9 @@ public class Atividade {
 
         novoSalario = salario + abono;
 
-        System.out.println("O novo salário é: " + novoSalario);        
+        // System.out.println("O novo salário é: " + novoSalario);
+        
+        //formatar apenas uma casa decimal
+        System.out.printf("O novo salário é: %.1f", novoSalario);
     }
-
 }

@@ -8,6 +8,7 @@ public class Atividade {
         float nota1,nota2,nota3,nota4,media;
 
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Atividade 02");
 
         System.out.println("Digite a primeira nota: ");
         nota1 = scanner.nextFloat();
@@ -23,7 +24,7 @@ public class Atividade {
 
         media = (nota1 + nota2 + nota3 + nota4) / 4;
 
-        System.out.println("A média final é: " + media);
+        System.out.printf("A média final é: %.1f", media);
     }
 
 }
