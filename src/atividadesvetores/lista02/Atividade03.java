@@ -1,5 +1,6 @@
 package atividadesvetores.lista02;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 //Elabore um algoritmo que leia uma Matriz 3x3 de números inteiros e em seguida, mostre na tela:
@@ -7,7 +8,6 @@ import java.util.Scanner;
 // Todos os elementos da Diagonal Secundária
 // A Soma de todos os elementos da Diagonal Principal
 // A Soma de todos os elementos da Diagonal Secundária
-
 
 public class Atividade03 {
     public static void main(String[] args) {
@@ -39,15 +39,8 @@ public class Atividade03 {
             }
         }
 
-        System.out.println("Elementos da Diagonal Principal: ");
-        for (int i = 0; i < diagonalPrincipal.length; i++) {
-            System.out.println(diagonalPrincipal[i]);
-        }
-
-        System.out.println("Elementos da Diagonal Secundária: ");
-        for (int i = 0; i < diagonalSecundaria.length; i++) {
-            System.out.println(diagonalSecundaria[i]);
-        }
+        System.out.println("Diagonal Principal: " + Arrays.toString(diagonalPrincipal));
+        System.out.println("Diagonal Secundaria: " + Arrays.toString(diagonalSecundaria));
 
         System.out.println("Soma dos Elementos da Diagonal Principal: " + somaDiagonalPrincipal);
         System.out.println("Soma dos Elementos da Diagonal Secundária: " + somaDiagonalSecundaria);
